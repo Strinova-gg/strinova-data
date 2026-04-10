@@ -1,0 +1,29 @@
+{
+  "class": "Duelist",
+  "name": "Chiyo",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 34,
+    "bodyDamageMultipliers": {
+      "head": 1.75,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 5000,
+      "factorEffective": 0.15,
+      "factorMaximal": 0.1,
+      "damageAtDistance": {
+        "10m": 34,
+        "30m": 32,
+        "50m": 28
+      }
+    },
+    "name": "HK417",
+    "weaponId": "10305001"
+  },
+  "roleId": 125,
+  "version": "1.8.2.4"
+}

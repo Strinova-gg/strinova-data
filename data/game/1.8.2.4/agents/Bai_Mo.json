@@ -1,0 +1,30 @@
+{
+  "class": "Duelist",
+  "name": "Bai Mo",
+  "primaryWeapon": {
+    "attackCount": 13,
+    "attackDamage": 7,
+    "bodyDamageMultipliers": {
+      "head": 1,
+      "body": 1,
+      "leg": 1
+    },
+    "damagePerShot": 91,
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 1800,
+      "factorEffective": 0.5,
+      "factorMaximal": 0.5,
+      "damageAtDistance": {
+        "10m": 91,
+        "20m": 45,
+        "30m": 45
+      }
+    },
+    "name": "Super90",
+    "weaponId": "10602001"
+  },
+  "roleId": 110,
+  "version": "1.8.2.4"
+}

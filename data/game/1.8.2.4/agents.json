@@ -1,0 +1,189 @@
+{
+  "agents": {
+    "101": {
+      "class": "Sentinel",
+      "name": "Michele",
+      "primaryWeapon": "10101001",
+      "primaryWeaponDamage": 24,
+      "primaryWeaponName": "M4A1"
+    },
+    "105": {
+      "class": "Sentinel",
+      "name": "Audrey",
+      "primaryWeapon": "10403001",
+      "primaryWeaponDamage": 28,
+      "primaryWeaponName": "MG42"
+    },
+    "107": {
+      "class": "Controller",
+      "name": "Maddelena",
+      "primaryWeapon": "10301001",
+      "primaryWeaponDamage": 51,
+      "primaryWeaponName": "G28"
+    },
+    "108": {
+      "class": "Sentinel",
+      "name": "Nobunaga",
+      "primaryWeapon": "10304001",
+      "primaryWeaponDamage": 43,
+      "primaryWeaponName": "G3SG1"
+    },
+    "109": {
+      "class": "Controller",
+      "name": "Reiichi",
+      "primaryWeapon": "10303001",
+      "primaryWeaponDamage": 76,
+      "primaryWeaponName": "SVD"
+    },
+    "110": {
+      "class": "Duelist",
+      "name": "Bai Mo",
+      "primaryWeapon": "10602001",
+      "primaryWeaponDamage": 7,
+      "primaryWeaponName": "Super90"
+    },
+    "112": {
+      "class": "Duelist",
+      "name": "Fuchsia",
+      "primaryWeapon": "10108001",
+      "primaryWeaponDamage": 27,
+      "primaryWeaponName": "SCARH"
+    },
+    "115": {
+      "class": "Duelist",
+      "name": "Flavia",
+      "primaryWeapon": "10502001",
+      "primaryWeaponDamage": 21,
+      "primaryWeaponName": "Vector"
+    },
+    "119": {
+      "class": "Duelist",
+      "name": "Eika",
+      "primaryWeapon": "10603001",
+      "primaryWeaponDamage": 7,
+      "primaryWeaponName": "AA12"
+    },
+    "120": {
+      "class": "Support",
+      "name": "Fragrans",
+      "primaryWeapon": "10111001",
+      "primaryWeaponDamage": 22,
+      "primaryWeaponName": "M4A1_Fragrans"
+    },
+    "121": {
+      "class": "Controller",
+      "name": "Yugiri",
+      "primaryWeapon": "10113001",
+      "primaryWeaponDamage": 24,
+      "primaryWeaponName": "AUG_Yugiri"
+    },
+    "122": {
+      "class": "Duelist",
+      "name": "Mara",
+      "primaryWeapon": "10503001",
+      "primaryWeaponDamage": 24,
+      "primaryWeaponName": "MP5A1"
+    },
+    "123": {
+      "class": "Sentinel",
+      "name": "Leona",
+      "primaryWeapon": "10404001",
+      "primaryWeaponDamage": 26,
+      "primaryWeaponName": "Ultimax100"
+    },
+    "124": {
+      "class": "Support",
+      "name": "Kokona",
+      "primaryWeapon": "10202001",
+      "primaryWeaponDamage": 100,
+      "primaryWeaponName": "M200"
+    },
+    "125": {
+      "class": "Duelist",
+      "name": "Chiyo",
+      "primaryWeapon": "10305001",
+      "primaryWeaponDamage": 34,
+      "primaryWeaponName": "HK417"
+    },
+    "128": {
+      "class": "Vanguard",
+      "name": "Lawine",
+      "primaryWeapon": "10104001",
+      "primaryWeaponDamage": 23,
+      "primaryWeaponName": "XM8"
+    },
+    "130": {
+      "class": "Duelist",
+      "name": "Cielle",
+      "primaryWeapon": "10604001",
+      "primaryWeaponDamage": 6.5,
+      "primaryWeaponName": "M1887"
+    },
+    "131": {
+      "class": "Controller",
+      "name": "Yvette",
+      "primaryWeapon": "10501001",
+      "primaryWeaponDamage": 23,
+      "primaryWeaponName": "MP5A5"
+    },
+    "132": {
+      "class": "Duelist",
+      "name": "Ming",
+      "primaryWeapon": "10102001",
+      "primaryWeaponDamage": 27,
+      "primaryWeaponName": "AKM"
+    },
+    "133": {
+      "class": "Controller",
+      "name": "Meredith",
+      "primaryWeapon": "10105001",
+      "primaryWeaponDamage": 24,
+      "primaryWeaponName": "AUG"
+    },
+    "137": {
+      "class": "Vanguard",
+      "name": "Kanami",
+      "primaryWeapon": "10201001",
+      "primaryWeaponDamage": 105,
+      "primaryWeaponName": "M82A1"
+    },
+    "146": {
+      "class": "Support",
+      "name": "Xinyi",
+      "primaryWeapon": "10106001",
+      "primaryWeaponDamage": 25,
+      "primaryWeaponName": "FAMAS"
+    },
+    "205": {
+      "class": "Vanguard",
+      "name": "Galatea",
+      "primaryWeapon": "10112001",
+      "primaryWeaponDamage": 25,
+      "primaryWeaponName": "AKM_Galatea"
+    }
+  },
+  "extracted": "auto",
+  "secondaryWeapons": {
+    "12101001": {
+      "attackDamage": 17,
+      "category": "machine_pistol",
+      "name": "MicroUzi"
+    },
+    "12201001": {
+      "attackDamage": 8.5,
+      "category": "revolver",
+      "name": "Chiappa"
+    },
+    "12303001": {
+      "attackDamage": 42,
+      "category": "pistol",
+      "name": "DesertEagle"
+    },
+    "12307001": {
+      "attackDamage": 15,
+      "category": "special_pistol",
+      "name": "FlamePistol"
+    }
+  },
+  "version": "1.8.2.4"
+}

@@ -1,0 +1,61 @@
+{
+  "class": "Duelist",
+  "gunUpgrades": [
+    {
+      "optionA": {
+        "description": "Switches M1887 to single-shot DMR mode",
+        "modifiedWeaponStats": {
+          "attackCount": 1,
+          "attackDamage": 100,
+          "bodyDamageMultipliers": {
+            "body": 1,
+            "head": 1.5,
+            "leg": 0.7
+          },
+          "damagePerShot": 100,
+          "distanceFalloff": {
+            "damageAtDistance": {
+              "10m": 100,
+              "30m": 99,
+              "50m": 96
+            },
+            "effectiveRange": 6000,
+            "factorEffective": 0.06,
+            "factorMaximal": 0.09,
+            "falloffEndRange": 2200,
+            "fullDamageRange": 0
+          }
+        },
+        "name": "SingleBulletShootingMode"
+      },
+      "slot": "part3"
+    }
+  ],
+  "name": "Cielle",
+  "primaryWeapon": {
+    "attackCount": 21,
+    "attackDamage": 6.5,
+    "bodyDamageMultipliers": {
+      "head": 1,
+      "body": 1,
+      "leg": 1
+    },
+    "damagePerShot": 136.5,
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1200,
+      "effectiveRange": 2300,
+      "factorEffective": 0.5,
+      "factorMaximal": 0.5,
+      "damageAtDistance": {
+        "10m": 136,
+        "20m": 100,
+        "30m": 68
+      }
+    },
+    "name": "M1887",
+    "weaponId": "10604001"
+  },
+  "roleId": 130,
+  "version": "1.8.2.4"
+}

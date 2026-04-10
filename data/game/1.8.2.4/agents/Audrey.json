@@ -1,0 +1,29 @@
+{
+  "class": "Sentinel",
+  "name": "Audrey",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 28,
+    "bodyDamageMultipliers": {
+      "head": 1.5,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 4500,
+      "factorEffective": 0.15,
+      "factorMaximal": 0.15,
+      "damageAtDistance": {
+        "10m": 28,
+        "30m": 26,
+        "50m": 23
+      }
+    },
+    "name": "MG42",
+    "weaponId": "10403001"
+  },
+  "roleId": 105,
+  "version": "1.8.2.4"
+}

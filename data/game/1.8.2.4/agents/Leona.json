@@ -1,0 +1,29 @@
+{
+  "class": "Sentinel",
+  "name": "Leona",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 26,
+    "bodyDamageMultipliers": {
+      "head": 1.5,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 1,
+      "falloffEndRange": 1000,
+      "effectiveRange": 4500,
+      "factorEffective": 0.15,
+      "factorMaximal": 0.15,
+      "damageAtDistance": {
+        "10m": 26,
+        "30m": 24,
+        "50m": 22
+      }
+    },
+    "name": "Ultimax100",
+    "weaponId": "10404001"
+  },
+  "roleId": 123,
+  "version": "1.8.2.4"
+}

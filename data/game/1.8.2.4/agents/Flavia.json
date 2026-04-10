@@ -1,0 +1,29 @@
+{
+  "class": "Duelist",
+  "name": "Flavia",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 21,
+    "bodyDamageMultipliers": {
+      "head": 1.25,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 2800,
+      "factorEffective": 0.25,
+      "factorMaximal": 0.3,
+      "damageAtDistance": {
+        "10m": 21,
+        "30m": 14,
+        "50m": 14
+      }
+    },
+    "name": "Vector",
+    "weaponId": "10502001"
+  },
+  "roleId": 115,
+  "version": "1.8.2.4"
+}

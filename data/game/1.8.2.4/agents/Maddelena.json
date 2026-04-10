@@ -1,0 +1,29 @@
+{
+  "class": "Controller",
+  "name": "Maddelena",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 51,
+    "bodyDamageMultipliers": {
+      "head": 1.75,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1500,
+      "effectiveRange": 5000,
+      "factorEffective": 0.12,
+      "factorMaximal": 0.07,
+      "damageAtDistance": {
+        "10m": 51,
+        "30m": 49,
+        "50m": 44
+      }
+    },
+    "name": "G28",
+    "weaponId": "10301001"
+  },
+  "roleId": 107,
+  "version": "1.8.2.4"
+}

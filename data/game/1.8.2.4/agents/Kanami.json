@@ -1,0 +1,35 @@
+{
+  "class": "Vanguard",
+  "name": "Kanami",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 105,
+    "bodyDamageMultipliers": {
+      "head": 2.5,
+      "body": 1,
+      "leg": 0.7
+    },
+    "chargeStages": [
+      105,
+      135,
+      165,
+      195
+    ],
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1600,
+      "effectiveRange": 5000,
+      "factorEffective": 0.09,
+      "factorMaximal": 0.14,
+      "damageAtDistance": {
+        "10m": 105,
+        "30m": 103,
+        "50m": 95
+      }
+    },
+    "name": "M82A1",
+    "weaponId": "10201001"
+  },
+  "roleId": 137,
+  "version": "1.8.2.4"
+}

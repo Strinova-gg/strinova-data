@@ -1,0 +1,38 @@
+{
+  "extracted": "auto",
+  "gunSlots": {
+    "cost": 90,
+    "description": "Slots 0-5 are per-agent gun/ability upgrades (90 credits each)"
+  },
+  "mode": "bomb",
+  "sharedSlots": {
+    "6": {
+      "A": {
+        "cost": 250,
+        "description": "Light armor with HP regeneration",
+        "name": "LightRegenArmor"
+      },
+      "B": {
+        "armor": 50,
+        "cost": 250,
+        "description": "Heavy armor (+50 armor)",
+        "name": "HeavyArmor"
+      }
+    },
+    "7": {
+      "A": {
+        "cost": 250,
+        "description": "+15% movement speed",
+        "name": "StringifiedMoveSPD",
+        "speedBonus": 0.15
+      },
+      "B": {
+        "cost": 250,
+        "damageReduction": 0.46,
+        "description": "46% damage reduction when stringified",
+        "name": "StringifiedDMGReduction"
+      }
+    }
+  },
+  "version": "1.8.2.4"
+}

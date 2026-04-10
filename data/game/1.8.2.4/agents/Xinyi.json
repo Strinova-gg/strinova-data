@@ -1,0 +1,29 @@
+{
+  "class": "Support",
+  "name": "Xinyi",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 25,
+    "bodyDamageMultipliers": {
+      "head": 1.5,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 3800,
+      "factorEffective": 0.3,
+      "factorMaximal": 0.2,
+      "damageAtDistance": {
+        "10m": 25,
+        "30m": 21,
+        "50m": 20
+      }
+    },
+    "name": "FAMAS",
+    "weaponId": "10106001"
+  },
+  "roleId": 146,
+  "version": "1.8.2.4"
+}

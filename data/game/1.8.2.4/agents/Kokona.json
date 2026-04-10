@@ -1,0 +1,35 @@
+{
+  "class": "Support",
+  "name": "Kokona",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 100,
+    "bodyDamageMultipliers": {
+      "head": 2.5,
+      "body": 1,
+      "leg": 0.7
+    },
+    "chargeStages": [
+      100,
+      120,
+      140,
+      160
+    ],
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 2200,
+      "effectiveRange": 6000,
+      "factorEffective": 0.06,
+      "factorMaximal": 0.09,
+      "damageAtDistance": {
+        "10m": 100,
+        "30m": 99,
+        "50m": 96
+      }
+    },
+    "name": "M200",
+    "weaponId": "10202001"
+  },
+  "roleId": 124,
+  "version": "1.8.2.4"
+}

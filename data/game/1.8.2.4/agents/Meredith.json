@@ -1,0 +1,29 @@
+{
+  "class": "Controller",
+  "name": "Meredith",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 24,
+    "bodyDamageMultipliers": {
+      "head": 1.5,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1500,
+      "effectiveRange": 4000,
+      "factorEffective": 0.15,
+      "factorMaximal": 0.15,
+      "damageAtDistance": {
+        "10m": 24,
+        "30m": 22,
+        "50m": 20
+      }
+    },
+    "name": "AUG",
+    "weaponId": "10105001"
+  },
+  "roleId": 133,
+  "version": "1.8.2.4"
+}

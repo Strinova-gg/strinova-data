@@ -1,0 +1,29 @@
+{
+  "class": "Controller",
+  "name": "Yvette",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 23,
+    "bodyDamageMultipliers": {
+      "head": 1.25,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 2800,
+      "factorEffective": 0.25,
+      "factorMaximal": 0.32,
+      "damageAtDistance": {
+        "10m": 23,
+        "30m": 15,
+        "50m": 15
+      }
+    },
+    "name": "MP5A5",
+    "weaponId": "10501001"
+  },
+  "roleId": 131,
+  "version": "1.8.2.4"
+}

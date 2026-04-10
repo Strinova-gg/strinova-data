@@ -1,0 +1,30 @@
+{
+  "class": "Duelist",
+  "name": "Eika",
+  "primaryWeapon": {
+    "attackCount": 8,
+    "attackDamage": 7,
+    "bodyDamageMultipliers": {
+      "head": 1,
+      "body": 1,
+      "leg": 1
+    },
+    "damagePerShot": 56,
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 2300,
+      "factorEffective": 0.5,
+      "factorMaximal": 0.5,
+      "damageAtDistance": {
+        "10m": 56,
+        "20m": 39,
+        "30m": 28
+      }
+    },
+    "name": "AA12",
+    "weaponId": "10603001"
+  },
+  "roleId": 119,
+  "version": "1.8.2.4"
+}

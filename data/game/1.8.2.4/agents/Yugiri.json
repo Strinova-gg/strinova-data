@@ -1,0 +1,29 @@
+{
+  "class": "Controller",
+  "name": "Yugiri",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 24,
+    "bodyDamageMultipliers": {
+      "head": 1.5,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 3000,
+      "factorEffective": 0.225,
+      "factorMaximal": 0.225,
+      "damageAtDistance": {
+        "10m": 24,
+        "30m": 18,
+        "50m": 18
+      }
+    },
+    "name": "AUG_Yugiri",
+    "weaponId": "10113001"
+  },
+  "roleId": 121,
+  "version": "1.8.2.4"
+}

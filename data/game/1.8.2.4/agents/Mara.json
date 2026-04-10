@@ -1,0 +1,29 @@
+{
+  "class": "Duelist",
+  "name": "Mara",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 24,
+    "bodyDamageMultipliers": {
+      "head": 1.25,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 2800,
+      "factorEffective": 0.25,
+      "factorMaximal": 0.3,
+      "damageAtDistance": {
+        "10m": 24,
+        "30m": 16,
+        "50m": 16
+      }
+    },
+    "name": "MP5A1",
+    "weaponId": "10503001"
+  },
+  "roleId": 122,
+  "version": "1.8.2.4"
+}

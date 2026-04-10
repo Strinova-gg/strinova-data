@@ -1,0 +1,29 @@
+{
+  "class": "Duelist",
+  "name": "Ming",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 27,
+    "bodyDamageMultipliers": {
+      "head": 1.5,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 3800,
+      "factorEffective": 0.3,
+      "factorMaximal": 0.2,
+      "damageAtDistance": {
+        "10m": 27,
+        "30m": 22,
+        "50m": 21
+      }
+    },
+    "name": "AKM",
+    "weaponId": "10102001"
+  },
+  "roleId": 132,
+  "version": "1.8.2.4"
+}

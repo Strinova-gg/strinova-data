@@ -1,0 +1,29 @@
+{
+  "class": "Support",
+  "name": "Fragrans",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 22,
+    "bodyDamageMultipliers": {
+      "head": 1.5,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 3800,
+      "factorEffective": 0.3,
+      "factorMaximal": 0.2,
+      "damageAtDistance": {
+        "10m": 22,
+        "30m": 18,
+        "50m": 17
+      }
+    },
+    "name": "M4A1_Fragrans",
+    "weaponId": "10111001"
+  },
+  "roleId": 120,
+  "version": "1.8.2.4"
+}

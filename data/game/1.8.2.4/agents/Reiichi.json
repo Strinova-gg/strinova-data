@@ -1,0 +1,41 @@
+{
+  "class": "Controller",
+  "gunUpgrades": [
+    {
+      "optionA": {
+        "description": "Adds 3 extra shots for 4-shot burst",
+        "name": "BurstMode",
+        "rawModifiers": {
+          "attackCountAdditive": 3
+        }
+      },
+      "slot": "part3"
+    }
+  ],
+  "name": "Reiichi",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 76,
+    "bodyDamageMultipliers": {
+      "head": 1.75,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1500,
+      "effectiveRange": 5000,
+      "factorEffective": 0,
+      "factorMaximal": 0,
+      "damageAtDistance": {
+        "10m": 76,
+        "30m": 76,
+        "50m": 76
+      }
+    },
+    "name": "SVD",
+    "weaponId": "10303001"
+  },
+  "roleId": 109,
+  "version": "1.8.2.4"
+}

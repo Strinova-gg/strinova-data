@@ -1,0 +1,29 @@
+{
+  "class": "Sentinel",
+  "name": "Michele",
+  "primaryWeapon": {
+    "attackCount": 1,
+    "attackDamage": 24,
+    "bodyDamageMultipliers": {
+      "head": 1.5,
+      "body": 1,
+      "leg": 0.7
+    },
+    "distanceFalloff": {
+      "fullDamageRange": 0,
+      "falloffEndRange": 1000,
+      "effectiveRange": 3800,
+      "factorEffective": 0.3,
+      "factorMaximal": 0.2,
+      "damageAtDistance": {
+        "10m": 24,
+        "30m": 20,
+        "50m": 19
+      }
+    },
+    "name": "M4A1",
+    "weaponId": "10101001"
+  },
+  "roleId": 101,
+  "version": "1.8.2.4"
+}
